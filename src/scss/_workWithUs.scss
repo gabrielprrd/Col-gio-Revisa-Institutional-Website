@@ -1,0 +1,48 @@
+#work-with-us {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: 50px 0 50px 20px;
+
+    #work-image-container {
+        flex: 1;
+        margin-right: 20px;
+        position: relative;
+
+        #woman-work-img {
+            height: 560px;
+            position: relative;
+        }
+
+        #business-woman-img {
+            display: none;
+            height: 560px;
+            position: relative;
+        }
+
+        h2 {
+            position: absolute;
+            top: 8px;
+            left: 15px;
+            color: #fff;
+            font-size: 2em;
+            z-index: 2
+        }
+
+        #img-overlay {
+            background-color: black;
+            opacity: .25;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 560px;
+            width: 100%;
+            z-index: 1;
+
+        }
+    }
+
+    form {
+        flex: 1;
+    }
+}

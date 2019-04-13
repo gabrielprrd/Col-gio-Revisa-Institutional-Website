@@ -1,0 +1,41 @@
+@include tablet {
+
+    #about-page {
+        padding: 0 !important;
+        margin: 20px !important;
+    }
+
+    #proposta-wrapper {
+        margin: 20px 0 0 0 !important;
+        justify-content: center;
+        text-align: justify;
+    }
+    
+    #accordion {
+        width: 100vw !important;
+        margin: 0 0 40px -40px !important;
+    
+        ul {
+            flex-direction: column;
+            
+            li {
+                height: 300px !important; 
+                width: 100% !important;
+
+                &:hover {
+                    height: 600px !important;
+                }
+    
+                .img-accordion-wrapper{
+                    position: relative !important;
+                    height: 100% !important;
+                    width: 100% !important;
+    
+                    img {
+                        height: 300px;
+                    }   
+                }
+            }
+        }
+    }    
+}

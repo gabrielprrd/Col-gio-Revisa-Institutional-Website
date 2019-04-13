@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+}
+
+[v-cloak] > * {
+    display: none;
+
+    &:before {
+        content: "loading…";
+    }
+}
+
+@import 'leaflet/dist/leaflet.css'; // Leaflet
+@import './variables';
+@import './mixins';
+@import './mobile/mobile'; // All media queries to make it responsive
+@import '../../node_modules/bootstrap/scss/bootstrap'; // Bootstrap
+@import '../../node_modules/bootstrap-vue/src/index.scss'; // BootstrapVue
+@import './animations';
+@import './header';
+@import './nav';
+@import './footer';
+@import './home/home';
+@import './about';
+@import './workWithUs';
+@import './contact';
+@import './thankYouModal';

@@ -1,0 +1,75 @@
+@include smartphone {
+
+    // Carousel
+    .carousel-container {
+        margin: 0 !important;
+        height: 250px !important;
+    }
+
+    .carousel-caption h3 {
+        margin-bottom: 30px !important;
+    }
+}
+
+@include tablet {
+
+    // Carousel
+    .carousel-container {
+        padding: 0 !important;
+        position: relative;
+        height: 300px;
+
+        .carousel {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .carousel-inner {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+          }
+        
+        #home-carousel {
+            height: 100% !important;
+            width: 100% !important; 
+            margin: 0 !important;
+            padding: 0 !important;
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .carousel-caption h3 {
+            font-size: 1.7em;
+            margin-bottom: 200px;
+        }
+    }
+
+    // Features
+    #features-container {
+        justify-content: center;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+    
+        .features-row {
+            flex-direction: column;
+            align-items: center;
+    
+            .icon-container {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+
+

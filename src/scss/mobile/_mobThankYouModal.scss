@@ -1,0 +1,17 @@
+@include smartphone {
+
+    #close-icon {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    #thank-you-modal {
+        width: 250px !important;
+        left: 18% !important;
+        top: 25% !important;
+
+        img {
+            height: 100px !important;
+        }
+    }
+}

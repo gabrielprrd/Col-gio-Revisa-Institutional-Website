@@ -1,0 +1,15 @@
+// Transition between pages
+
+.page-transition-enter-active {
+    transition: all .3s ease;  
+  }
+
+.page-transition-leave-active {
+    transition: all .3s ease;
+  }
+
+.page-transition-enter, .page-transition-leave-to {
+    transform: translateX(-20vw);
+    opacity: 0;
+  }
+  

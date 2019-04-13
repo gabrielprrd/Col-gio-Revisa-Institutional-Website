@@ -1,0 +1,44 @@
+@include smartphone {
+
+    #woman-work-img{
+        display: block !important;
+        height: 400px;
+    }
+
+    #business-woman-img {
+        display: none !important;
+        left: -300px !important;
+    }
+}
+
+@include tablet {
+    #work-with-us {
+        flex-direction: column;
+        margin: 0 !important;
+        padding: 0 !important;
+
+        #work-image-container {
+            margin: 0 0 20px 0 !important;
+            height: 400px;
+            overflow: hidden;
+
+            #img-overlay {
+                width: 100%;
+                height: 100%;
+            }
+    
+            #woman-work-img {
+                display: none;
+            }
+
+            #business-woman-img {
+                display: block !important;
+                left: -75px;
+            }
+        }
+        
+        form {
+            margin-bottom: 30px;
+        }
+    }
+}
