@@ -1,10 +1,9 @@
-# colegio-curso-revisa
+# Colégio e Curso Revisa
 
-This is a website for my portfolio
+## Technologies
+- Vue.js
+- Vue Router
+- Bootstrap
+- Firebase
 
-I wanted to play with Vue, Vue Router, Bootstrap, Firebase and other tools I was not too familiar with etc
-
-Still need to: 
-- Validate forms
-- Make pdf upload to firebase
-- 
+Note: this is not the official institution's website. It was made just for practice.
